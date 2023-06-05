@@ -28,7 +28,7 @@ export default function UsesPage() {
         <ul>
           <li>
             Editor: VSCode (
-            <a href="https://gist.github.com/leerob/e7883ab35d900b8cbb684ac77e7c4703">
+            <a href="">
               Settings / Extensions
             </a>
             )
