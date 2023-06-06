@@ -33,7 +33,7 @@ export default async function HomePage() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/ozup_"
+            href="https://twitter.com/courtthetwin_"
             className="flex items-center gap-2"
           >
             <TwitterIcon />
@@ -42,7 +42,7 @@ export default async function HomePage() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/nikonmcfly"
+            href="https://github.com/bornsky"
             className="flex items-center gap-2"
           >
             <GitHubIcon />
@@ -63,7 +63,7 @@ export default async function HomePage() {
             className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/ozup_"
+            href="https://twitter.com/courtthetwin_"
           >
             <ArrowIcon />
             <p className="h-7">follow me on twitter</p>
