@@ -5,7 +5,7 @@ export default function robots() {
         userAgent: '*',
       },
     ],
-    sitemap: 'https://sosborne.co/sitemap.xml',
-    host: 'https://sosborne.co',
+    sitemap: 'https://nosborne.co/sitemap.xml',
+    host: 'https://nosborne.co',
   };
 }

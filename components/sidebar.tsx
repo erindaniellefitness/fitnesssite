@@ -19,7 +19,7 @@ const navItems = {
 
 function Logo() {
   return (
-    <Link aria-label="Steven Osborne" href="/">
+    <Link aria-label="Courtney Osborne" href="/">
       <motion.svg
         className="text-black dark:text-white h-[25px] md:h-[37px]"
         width="25"

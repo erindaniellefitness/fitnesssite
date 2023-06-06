@@ -14,18 +14,18 @@ const kaisei = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Steven Osborne',
-    template: '%s | Steven Osborne',
+    default: 'Courtney Osborne',
+    template: '%s | Courtney Osborne',
   },
   description: 'Developer, writer, and creator.',
   openGraph: {
-    title: 'Steven Osborne',
+    title: 'Courtney Osborne',
     description: 'Developer, writer, and creator.',
-    url: 'https://sosborne.co',
-    siteName: 'Steven Osborne',
+    url: 'https://nosborne.co',
+    siteName: 'Courtney Osborne',
     images: [
       {
-        url: 'https://sosborne.co/og.jpg',
+        url: 'https://nosborne.co/og.jpg',
         width: 1920,
         height: 1080,
       },

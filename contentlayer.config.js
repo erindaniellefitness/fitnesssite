@@ -29,12 +29,12 @@ const computedFields = {
       dateModified: doc.publishedAt,
       description: doc.summary,
       image: doc.image
-        ? `https://sosborne.co${doc.image}`
-        : `https://sosborne.co/api/og?title=${doc.title}`,
-      url: `https://sosborne.co/blog/${doc._raw.flattenedPath}`,
+        ? `https://nosborne.co${doc.image}`
+        : `https://nosborne.co/api/og?title=${doc.title}`,
+      url: `https://nosborne.co/blog/${doc._raw.flattenedPath}`,
       author: {
         '@type': 'Person',
-        name: 'Steven Osborne',
+        name: 'Courtney Osborne',
       },
     }),
   },

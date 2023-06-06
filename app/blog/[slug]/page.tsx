@@ -28,8 +28,8 @@ export async function generateMetadata({
     slug,
   } = post;
   const ogImage = image
-    ? `https://sosborne.co${image}`
-    : `https://sosborne.co/api/og?title=${title}`;
+    ? `https://nosborne.co${image}`
+    : `https://nosborne.co/api/og?title=${title}`;
 
   return {
     title,
@@ -39,7 +39,7 @@ export async function generateMetadata({
       description,
       type: 'article',
       publishedTime,
-      url: `https://sosborne.co/blog/${slug}`,
+      url: `https://nosborne.co/blog/${slug}`,
       images: [
         {
           url: ogImage,

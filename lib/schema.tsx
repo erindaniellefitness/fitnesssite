@@ -1,199 +1,173 @@
 
 export const aboutPage = {
-    "@context": "https://schema.org",
-    "@type": "AboutPage",
-    "@id": "https://sosborne.co/about#AboutPage",
-    "mainEntityOfPage": "https://sosborne.co/",
-    "isPartOf": {
-       "@type": "WebSite",
-       "name": "Steven Osborne Reviews",
-       "@id": "https://sosborne.co/#website"
-    },
-    "lastReviewed": "2023-05-31",
-    "reviewedBy": {
-       "@type": "Corporation",
-       "name": "Agreedment",
-       "url": "https://Agreedment.com/about/",
-       "@id": "https://sosborne.co/#corporation"
-    },
-    "audience": [
-       {
-          "@type": "Audience",
-          "name": "black people"
-       },
-       {
-          "@type": "Audience",
-          "name": "African Americans"
-       },
-       {
-          "@type": "Audience",
-          "name": "real estate"
-       },
-       {
-          "@type": "Audience",
-          "name": "Reputation"
-       },
-       {
-          "@type": "Audience",
-          "name": "Data analysis"
-       }
-    ],
-    "name": "About Steven Osborne",
-    "about": {
-       "@type": "Person",
-       "name": "Steven Osborne",
-       "description": "Steven Osborne is the co-founder of Agreedment, a SaaS proptech company. He is an internet entrepreneur, real estate entrepreneur, software programmer, and former American wide receiver. He specializes in developing full-stack systems and architectural design in software applications using React.js, Next.js, Node.js, Python, Redis, MongoDB, Postgres, and Docker. Osborne has over 10 years of experience in building software programs and 5 years as a real estate entrepreneur. This includes creating lead generation and acquisition strategies for residential properties. Steven′s Backstory: With over 15 years in the real estate and software industries, Steven′s journey began as a college athlete playing wide receiver for the University of Nebraska-Lincoln. He was part of the Cornhusker football team that secured the Legends Division′s berth in the championship game under Bo Pelini in 2012. Education: Steven graduated from the University of Nebraska-Lincoln in 2013 with a degree in Economics.",
-       "url": "https://sosborne.co/",
-       "@id": "https://sosborne.co/#person",
-       "mainEntityOfPage": "https://sosborne.co/",
-       "affiliation": {
-        "@type":"SportsTeam",
-        "name": "Nebraska Cornhuskers"
-        },
-       "height":[
-          {"@type": "QuantitativeValue",
-          "value": "6-4"
-          }
-        ],
-        "weight":[
-           {"@type": "QuantitativeValue",
-               "value": "182"
-           }
-        ],
-       "sameAs": [
-          "https://jasonbarnard.com/",
-          "https://twitter.com/jasonmbarnard",
-          "https://www.crunchbase.com/person/jason-barnard",
-          "https://www.slideshare.net/JasonBarnard2",
-          "https://fr.wikipedia.org/wiki/Jason_Barnard",
-          "https://www.discogs.com/artist/4359773-Jason-Barnard",
-          "https://www.wikidata.org/wiki/Q23416738",
-          "https://wordlift.io/blog/en/entity/jason-m-barnard/",
-          "https://muckrack.com/jason-barnard",
-          "https://es.wikipedia.org/wiki/Jason_Barnard",
-          "https://www.pinterest.fr/jasonbarnard/",
-          "https://www.linkedin.com/in/jasonmbarnard",
-          "https://www.youtube.com/channel/UCxnrBqNI4NKzqURO2aqClxA",
-          "https://soundcloud.com/jasonmbarnard",
-          "https://www.instagram.com/jasonmbarnard1/",
-          "https://www.amazon.com/Jason-Barnard/e/B09QT6JHRY",
-          "https://www.knowledgegraph.tech/speakers/jason-barnard/",
-          "https://jasonbarnard.com/about/",
-          "https://www.facebook.com/jasonmartinbarnard/",
-          "https://www.mattartz.me/vocabulary/jason-barnard/",
-          "https://dbpedia.org/page/Jason_Barnard",
-          "https://golden.com/wiki/Jason_Barnard-GGEYYA",
-          "https://www.similarweb.com/blog/author/jason-barnard/",
-          "https://www.amazon.com/stores/author/B09QT6JHRY/about?ingress=0&visitId=b8f021ff-4404-4917-ac0c-6702e251d79b&store_ref=ap_rdr&ref_=ap_rdr",
-          "https://brandedsearchandbeyond.com/about/jason-barnard/",
-          "https://www.goodreads.com/author/show/22170973.Jason_Barnard",
-          "https://bookbrainz.org/author/ed8941e1-fadd-47b6-b770-972061f3c635",
-          "https://www.google.com/search?kgmid=/g/11cm_q3wqr",
-          "https://www.google.com/search?kgmid=/g/11cm_q3wqr",
-          "https://www.google.com/search?kgmid=/g/11rnbw3vfh",
-          "https://www.google.com/search?kgmid=/m/0121q8ds"
-       ],
-       "subjectOf": [
-          "https://miloszkrasinski.com/interview-with-jason-barnard/",
-          "https://sitechecker.pro/interview-jason-barnard/",
-          "https://www.marketingspeak.com/your-brand-serp-is-your-business-card-with-jason-barnard/",
-          "https://marketingnewscanada.com/news-show/jason-barnard-kalicube",
-          "https://edgeofthewebradio.com/seo-podcast/bringing-brand-serp-into-focus-with-jason-barnard/",
-          "https://gydainitiative.com/gyda-talks-jason-barnard-brand-serps/",
-          "https://kalicube.pro/about/jason-barnard",
-          "https://withjasonbarnard.com/about/jason-barnard/",
-          "https://markstinson.captivate.fm/episode/jason-barnard-the-brand-serp-guy",
-          "https://thebrandserpguy.com/about/about-jason-barnard/",
-          "https://kalicube.com/about/jason-barnard/",
-          "https://www.swydo.com/blog/smx-munich-speaker-spotlight-jason-barnard-brand-serp-expert/",
-          "https://digitalstrategyconsultants.in/blog/talking-with-nomad-marketer-jason-barnard/",
-          "https://kalicube.com/about/invite-jason/invite-jason-barnard-on-your-podcast/",
-          "https://kalicube.com/about/invite-jason/",
-          "https://jasonbarnard.com/digital-marketing/videos/jason-barnard-the-brand-serp-guy-my-life-journey-revealed/",
-          "https://www.marketapeel.agency/post/the-brand-serps-guy",
-          "https://jasonbarnard.com/personal-stuff/professions/",
-          "https://jasonbarnard.com/digital-marketing/articles/articles-about/digital-brand-storytelling-with-jason-barnard-the-brand-serp-guy/",
-          "https://www.markapreston.com/jason-barnard",
-          "https://seowebfirm.com/jason-barnard/",
-          "https://kalicube.academy/about/jason-barnard/"
-       ],
-       "additionalType": "https://www.wikidata.org/wiki/Q45916492",
-       "image": [
-          {
-             "@type": "ImageObject",
-             "url": "https://jasonbarnard.com/wp-content/uploads/2021/05/jason-barnard-2.png",
-             "contentUrl": "https://jasonbarnard.com/wp-content/uploads/2021/05/jason-barnard-2.png",
-             "caption": "Jason Barnard"
-          },
-          {
-             "@type": "ImageObject",
-             "url": "https://jasonbarnard.com/wp-content/uploads/2019/10/jason-barnard-pubcon.jpg",
-             "contentUrl": "https://jasonbarnard.com/wp-content/uploads/2019/10/jason-barnard-pubcon.jpg",
-             "caption": "Jason Barnard at Pubcon"
-          },
-          {
-             "@type": "ImageObject",
-             "url": "https://jasonbarnard.com/wp-content/uploads/2021/05/IMG_20140610_174519.jpg",
-             "contentUrl": "https://jasonbarnard.com/wp-content/uploads/2021/05/IMG_20140610_174519.jpg",
-             "caption": "Jason Barnard with Double Bass"
-          }
-       ],
-       "alternateName": [
-          "Steven Osborne",
-          "Steve Osborne"
-       ],
-       "email": "s@sosborne.co",
-       "familyName": "Osborne",
-       "additionalName": "twin",
-       "givenName": "Steven",
-       "honorificSuffix": "BA (Hons)",
-       "hasOccupation": "https://www.wikidata.org/wiki/Q45916492",
-       "jobTitle": "co-founder",
-       "gender": "Male",
-       "birthDate": "1990",
-       "worksFor": {"@id": "https://sosborne.co/#corporation"},
-       "alumniOf": [
-          {
-             "@type": "CollegeOrUniversity",
-             "name": "University of Nebraska-Lincoln",
-             "sameAs": "https://en.wikipedia.org/wiki/University_of_Nebraska-Lincoln"
-          },
-          {
-             "@type": "HighSchool",
-             "name": "South Garland High School",
-             "sameAs": "https://en.wikipedia.org/wiki/South_Garland_High_School"
-          }
-       ],
-       "award": [],
-       "nationality": [
-          {
-             "@type": "Country",
-             "name": "United States"
-          }
-       ],
-       "sibling": [
-          {
-             "@type": "Person",
-             "name": "Courtney Osborne",
-             "givenName": "Courtney",
-             "familyName": "Osborne",
-             "gender": "Male",
-             "birthDate": "1990-01-15",
-             "url": "https://cnosborne.co"
-          }
-       ],
-       "parent": [
-          {
-             "@type": "Person",
-             "name": "Sandra Osborne",
-             "givenName": "Sandra",
-             "familyName": "Osborne",
-             "gender": "Female"
-          }
-       ],
-
-       "disambiguatingDescription": "Steven Osborne: Co-founder of Agreedment a proptech company, software programmer, Real Estate Investor, and Former University of Nebraska-Lincoln College American football player."
-       
+   "@context": "https://schema.org",
+   "@type": "AboutPage",
+   "@id": "https://nosborne.co/about#AboutPage",
+   "mainEntityOfPage": "https://nosborne.co/",
+   "isPartOf": {
+      "@type": "WebSite",
+      "name": "Courtney Osborne",
+      "@id": "https://nosborne.co/#website"
+   },
+   "lastReviewed": "2023-05-31",
+   "audience": [
+      {
+         "@type": "Audience",
+         "name": "internet entrepreneur"
+      },
+      {
+         "@type": "Audience",
+         "name": "African Americans"
+      },
+      {
+         "@type": "Audience",
+         "name": "real estate entrepreneur"
+      },
+      {
+         "@type": "Audience",
+         "name": "software programmer"
       }
+   ],
+   "name": "About Courtney Osborne",
+   "about": {
+      "@type": "Person",
+      "name": "Courtney Osborne",
+      "description": "Courtney Osborne is the co-founder of Agreedment, a SaaS proptech company. He is an internet entrepreneur, real estate entrepreneur, software programmer, and former American defensive back. He specializes in developing mobile systems and architectural design in mobile and software applications using iOS, Swift, Objective-c, Python, Redis, MongoDB, Postgres, and Docker. Osborne has over 10 years of experience in building software programs and 5 years as a real estate entrepreneur. This includes creating lead generation and acquisition strategies for residential properties. Courtney′s Backstory: With over 15 years in the real estate and software industries, Courtney′s journey began as a college athlete playing defensive back for the University of Nebraska-Lincoln. He was part of the Cornhusker football team that secured the Legends Division′s berth in the championship game under Bo Pelini in 2012. Education: Courtney graduated from the University of Nebraska-Lincoln in 2012 with a degree in Ethnic Studies.",
+      "url": "https://nosborne.co/",
+      "@id": "https://nosborne.co/#person",
+      "mainEntityOfPage": "https://nosborne.co/",
+      "affiliation": {
+       "@type":"SportsTeam",
+       "name": "Nebraska Cornhuskers"
+       },
+      "height":[
+         {"@type": "QuantitativeValue",
+         "value": "6-3"
+         }
+       ],
+       "weight":[
+          {"@type": "QuantitativeValue",
+              "value": "200"
+          }
+       ],
+      "sameAs": [
+       "https://www.wikidata.org/entity/Q118849453",
+       "https://posts.google.com/claim/?mid=/m/0h_fsqk",
+       "https://www.imdb.com/name/nm5245794/",
+       "https://www.sports-reference.com/cfb/players/courtney-osborne-1.html",
+       "https://www.linkedin.com/in/courtney-osborne-engineer",
+       "https://www.instagram.com/courtthetwin/",
+       "https://github.com/bornsky",
+       "https://www.youtube.com/channel/UC1aBAGCKWIrUe8mw4lLhXww",
+       "https://www.crunchbase.com/person/courtney-osborne-0044",
+       "https://wellfound.com/u/courtney-osborne-2",
+       "https://golden.com/profile/courtney-osborne",
+       "https://muckrack.com/courtney-osborne",
+       "https://247sports.com/player/courtney-osborne-11700/",
+       "https://www.espn.com/college-football/player/stats/_/id/381031/courtney-osborne",
+       "https://twitter.com/courtthetwin_"
+      ],
+      "subjectOf": [
+       "https://n.rivals.com/content/athletes/courtney-osborne-41198",
+       "https://www.espn.com/college-football/player/_/id/381031/courtney-osborne",
+       "https://bleacherreport.com/articles/1230394-nebraska-football-should-nebraska-schedule-games-in-texas-for-recruiting",
+       "https://www.huskermax.com/2012-nebraska-minnesota-football-photos",
+       "https://www.huskermax.com/game/2010-texas-am-football",
+       "https://omaha.com/sports/huskers/article_d1a31264-2742-5d1f-a505-ffe9a5c82efc.html",
+       "https://omaha.com/sports/huskers/football/photos-nebraska-oklahoma-in-the-2010-big-ten-championship-game/collection_a11121a6-1708-11ec-b50e-2754fc8722d3.html#23",
+       "https://omaha.com/sports/huskers/football/chatelain-what-if-the-2010-big-12-championship-had-gone-differently-for-nebraska/article_0e159fd8-1692-11ec-b68e-ef6f63e21c84.html",
+       "https://www.youtube.com/watch?v=WcwxTLp6fT0",
+       "https://www.si.com/more-sports/2008/01/22/ballhawk-safeties",
+       "https://247sports.com/Player/Courtney-Osborne-11700/high-school-15884",
+       "https://huskers.com/sports/football/roster/courtney-osborne/14937",
+       "https://omaha.com/sports/huskers/football/photos-nebraska-oklahoma-in-the-2010-big-ten-championship-game/collection_a11121a6-1708-11ec-b50e-2754fc8722d3.html#1",
+       "https://www.oklahoman.com/story/sports/columns/berry-tramel/2010/12/05/ou-report-card-bob-stoops-timeout-oklahomas-pass-rush-move-to-the-head-of-the-class/61195830007",
+       "https://big12sports.com/news/2008/2/6/1522202.aspx",
+       "https://www.dailynebraskan.com/sports/making-calls-on-helmet-to-helmet-hits-challenging-for-referees-and-coaches-alike/article_6e0d5354-674b-5eda-8476-f505855adb8a.html",
+       "https://www.foxsports.com/stories/college-football/nebraska-leaving-big-12-as-runner-ups",
+       "https://journalstar.com/gallery/husker-football/gallery-holiday-bowl---nebraska-vs-washington/collection_d63c8633-6d25-5c12-86c5-e3b7843879a7.html#11",
+       "https://static.huskers.com/custompages/pdf8/729166.pdf",
+       "https://www.nytimes.com/2010/09/19/sports/ncaafootball/19huskies.html",
+       "https://www.al.com/sports/2010/12/jake_locker_leads_huskies_to_1.html",
+       "https://www.mccookgazette.com/story/1524838.html",
+       "https://www.espn.com/college-football/news/story?id=5753107",
+       "https://www.toledoblade.com/Michigan/2018/09/20/michigan-vs-nebraska-game-preview-everything-you-need-to-know-before-kickoff/stories/20180921012",
+       "https://www.dallasnews.com/sports/2010/12/05/big-12-championship-notebook-sooners-qb-moves-up-chart",
+       "https://www.gettyimages.com/detail/news-photo/oklahomas-ryan-broyles-tries-to-stop-nebraskas-courtney-news-photo/107332070",
+       "https://www.dallasnews.com/sports/2010/12/02/carlton-nebraska-s-messy-big-12-divorce-nears-its-climactic-end",
+       "https://huskers.com/sports/football/roster/courtney-osborne/14937",
+       "https://www.columbiatribune.com/story/sports/college/football/2010/11/01/legality-hit-questioned/21425873007",
+       "https://247sports.com/Article/31-for-2011-Courtney-Osborne-31944",
+       "https://theathletic.com/2206464/2020/11/19/nebraska-texas-am-2010-madness-revisited",
+      ],
+      "additionalType": [
+        "https://www.wikidata.org/wiki/Q45916492",
+        "https://www.wikidata.org/wiki/Q7301138",
+        "https://www.wikidata.org/wiki/Q52228055",
+        "https://www.wikidata.org/wiki/Q5482740",
+        "https://www.wikidata.org/wiki/Q674953"
+     ],
+      "image": [],
+      "alternateName": [
+         "Courtney Osborne",
+         "Court Osborne"
+      ],
+      "email": "c@nosborne.co",
+      "familyName": "Osborne",
+      "additionalName": "twin",
+      "givenName": "Courtney",
+      "honorificSuffix": "BA (Hons)",
+      "hasOccupation": "https://www.wikidata.org/wiki/Q45916492",
+      "jobTitle": "co-founder",
+      "gender": "Male",
+      "birthDate": "1990",
+      "worksFor": {
+            "@type": "Corporation",
+            "name": "Agreedment",
+            "url": "https://Agreedment.com/about/"
+     },
+      "alumniOf": [
+         {
+            "@type": "CollegeOrUniversity",
+            "name": "University of Nebraska-Lincoln",
+            "sameAs": "https://en.wikipedia.org/wiki/University_of_Nebraska-Lincoln"
+         },
+         {
+            "@type": "HighSchool",
+            "name": "South Garland High School",
+            "sameAs": "https://en.wikipedia.org/wiki/South_Garland_High_School"
+         }
+      ],
+      "award": [],
+      "nationality": [
+         {
+            "@type": "Country",
+            "name": "United States"
+         }
+      ],
+      "sibling": [
+         {
+            "@type": "Person",
+            "name": "Courtney Osborne",
+            "givenName": "Courtney",
+            "familyName": "Osborne",
+            "gender": "Male",
+            "birthDate": "1990-01-15",
+            "url": "https://nosborne.co"
+         }
+      ],
+      "parent": [
+         {
+            "@type": "Person",
+            "name": "Sandra Osborne",
+            "givenName": "Sandra",
+            "familyName": "Osborne",
+            "gender": "Female"
+         }
+      ],
+
+      "disambiguatingDescription": "Courtney Osborne: Co-founder of Agreedment a proptech company, software programmer, Real Estate Investor, and Former University of Nebraska-Lincoln College American football player."
+
+     }
 
 }
