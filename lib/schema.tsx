@@ -148,12 +148,12 @@ export const aboutPage = {
       "sibling": [
          {
             "@type": "Person",
-            "name": "Courtney Osborne",
-            "givenName": "Courtney",
+            "name": "Steven Osborne",
+            "givenName": "Steven",
             "familyName": "Osborne",
             "gender": "Male",
             "birthDate": "1990-01-15",
-            "url": "https://nosborne.co"
+            "url": "https://sosborne.co"
          }
       ],
       "parent": [
