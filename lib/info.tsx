@@ -5,7 +5,7 @@ export const avatar = me;
 export const about = () => {
   return (
     <>
-      developer who loves Next.js. I work at BigCo or CoolStartup as a Software Engineer.
+      What's up? I'm Courtney, Co-Founder of Agreedment where we help real estate professionals with real estate investment data and analytics.
     </>
   );
 };
