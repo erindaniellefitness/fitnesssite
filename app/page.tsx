@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { aboutPage } from 'lib/schema';
 // import { getBlogViews, getTweetCount, getStarCount } from 'lib/metrics';
 import {
   ArrowIcon,
@@ -15,6 +16,12 @@ export default async function HomePage() {
 
 
   return (
+    <>
+    <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutPage) }}
+    key="product-jsonld"
+  />
     <section>
       <h1 className="font-bold text-3xl font-serif">{name}</h1>
       <p className="my-5 max-w-[460px] text-neutral-800 dark:text-neutral-200">
@@ -82,5 +89,6 @@ export default async function HomePage() {
         </li>
       </ul>
     </section>
+    </>
   );
 }

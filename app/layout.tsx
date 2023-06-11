@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     default: 'Courtney Osborne',
     template: '%s | Courtney Osborne',
   },
-  description: 'Developer, writer, and creator.',
+  description: 'CoFounder of Agreedment, a real estate investment data and analytics platform for real estate professionals. Computer programmer, Former football player for the University of Nebraska Cornhuskers.',
   openGraph: {
     title: 'Courtney Osborne',
-    description: 'Developer, writer, and creator.',
+    description: 'CoFounder of Agreedment, a real estate investment data and analytics platform for real estate professionals. Computer programmer, Former football player for the University of Nebraska Cornhuskers.',
     url: 'https://nosborne.co',
     siteName: 'Courtney Osborne',
     images: [
