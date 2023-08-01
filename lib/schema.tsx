@@ -2,7 +2,7 @@
 export const aboutPage = {
    "@context": "https://schema.org",
    "@type": "AboutPage",
-   "@id": "https://nosborne.co/about#AboutPage",
+   "@id": "https://www.erindaniellefitness.com/about#AboutPage",
    "mainEntityOfPage": "https://www.erindaniellefitness.com/",
    "isPartOf": {
       "@type": "WebSite",
