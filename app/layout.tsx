@@ -14,18 +14,18 @@ const kaisei = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Courtney Osborne',
-    template: '%s | Courtney Osborne',
+    default: 'Erin Davis',
+    template: '%s | Erin Davis',
   },
-  description: 'CoFounder of Agreedment, a real estate investment data and analytics platform for real estate professionals. Computer programmer, Former football player for the University of Nebraska Cornhuskers.',
+  description: 'I believe that everyone deserves the opportunity to be the best version of them, starting with fitness and health.',
   openGraph: {
-    title: 'Courtney Osborne',
-    description: 'CoFounder of Agreedment, a real estate investment data and analytics platform for real estate professionals. Computer programmer, Former football player for the University of Nebraska Cornhuskers.',
-    url: 'https://nosborne.co',
-    siteName: 'Courtney Osborne',
+    title: 'Erin Davis',
+    description: 'I believe that everyone deserves the opportunity to be the best version of them, starting with fitness and health.',
+    url: 'https://www.erindaniellefitness.com/',
+    siteName: 'Erin Davis',
     images: [
       {
-        url: 'https://nosborne.co/og.jpg',
+        url: 'https://erindavis.co/og.jpg',
         width: 1920,
         height: 1080,
       },
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     shortcut: '/favicon.ico',
   },
   verification: {
-    google: 'Am4nJkSmC6Jozqo1f_FxhAvSNKDcVDC9paFPbTICaCQ',
+    google: '',
     yandex: '',
   },
 };
